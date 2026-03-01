@@ -12,31 +12,31 @@ class BusinessCardApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.teal[700], // Background color as per instructions
+        backgroundColor: Colors.teal[700],
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('assets/images/verwinpic.jpg'), // Added Avatar Image
+                backgroundImage: AssetImage('assets/images/verwinpic.jpg'),
               ),
               const Text(
-                'Verwin Polloso', // FULLNAME
+                'Verwin Polloso',
                 style: TextStyle(
-                  fontFamily: 'Emaro', // Custom font applied
+                  fontFamily: 'Emaro',
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
               const Text(
-                'BSIT STUDENT', // BSIT STUDENT
+                'BSIT STUDENT',
                 style: TextStyle(
                   fontFamily: 'Kallina',
                   color: Colors.white,
                   fontSize: 20.0,
-                  letterSpacing: 2.5, // Letterspacing property
+                  letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -51,11 +51,11 @@ class BusinessCardApp extends StatelessWidget {
                 margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   leading: const Icon(
-                    Icons.phone, // Add icons
+                    Icons.phone,
                     color: Colors.teal,
                   ),
                   title: Text(
-                    '+63 912 345 6789', // CONTACT NUMBER
+                    '+63 912 345 6789',
                     style: TextStyle(
                       color: Colors.teal.shade900,
                       fontFamily: 'BoyScout',
@@ -72,7 +72,7 @@ class BusinessCardApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    'verwin.polloso@example.com', // EMAIL ADDRESS
+                    'verwin.polloso@example.com',
                     style: TextStyle(
                       fontSize: 16.0,
                       color: Colors.teal.shade900,
